@@ -1,0 +1,39 @@
+/* Remove margens e espaçamentos padrão do navegador e define a cor de fundo da página */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+/* Container principal do relógio, ocupa toda a altura da tela e centraliza o conteúdo */
+.relogio {
+    height: 100vh;    /* 100% da altura da janela de visualização */
+    display: flex;    /* Ativa o Flexbox para alinhamento */
+    flex-direction: column;    /* Organiza os elementos em coluna */
+    align-items: center;    /* Centraliza horizontalmente */
+    justify-content: center;    /* Centraliza verticalmente */
+}
+
+/* Área onde o horário é exibido */
+.display {
+    background-color: darkcyan;    /* Cor de fundo */
+    width: 300px;    /* Largura fixa */
+    height: 200px;    /* Altura fixa */
+    text-align: center;    /* Centraliza o texto horizontalmente */
+    line-height: 200px;    /* Centraliza verticalmente usando altura da linha */
+    border-radius: 10px;    /* Bordas arredondadas */
+    color: aliceblue;    /* Cor do texto */
+    font-size: 7rem;    /* Tamanho grande para o horário */
+    border: 5px solid darkslategray;    /* Borda sólida */
+    font-family: 'Qahiri', sans-serif;    /* Fonte personalizada */
+}
+
+/* Estilo do rodapé */
+footer {
+    font-size: 1rem;    /* Tamanho do texto */
+    margin-top: 20px;    /* Espaçamento acima do rodapé */
+    text-align: center;    /* Centraliza o texto */
+    font-family: 'Barlow Condensed', sans-serif;    /* Fonte personalizada */
+    color: darkslategray;    /* Cor do texto */ 
+}
